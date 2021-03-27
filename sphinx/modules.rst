@@ -5,3 +5,4 @@ Primeiros passos
    :maxdepth: 4
 
    firststeps
+   irisingestion
