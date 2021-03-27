@@ -13,9 +13,7 @@ Welcome to pyiris's documentation!
 
 Indices and tables
 ==================
-Primeiros passos
 
-=================
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
