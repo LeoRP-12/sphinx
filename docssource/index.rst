@@ -10,6 +10,7 @@ Welcome to pyiris's documentation!
    :caption: Contents:
    
    modules
+   firststeps
 
 Indices and tables
 ==================
