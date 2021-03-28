@@ -5,6 +5,8 @@ Aqui está a primeira seção, vou adicionar alguns comandos em rst para aprende
 
 Um teste utilizando o comando make html
 
+Ola ola ola
+
 italico : *aqui está um texto em italico*
 negrito : **aqui está um texto em negrito**
 
