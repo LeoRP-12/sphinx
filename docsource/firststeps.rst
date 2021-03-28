@@ -6,7 +6,7 @@ Aqui está a primeira seção, vou adicionar alguns comandos em rst para aprende
 italico : *aqui está um texto em italico*
 negrito : **aqui está um texto em negrito**
 
-um texto em código
+um texto em código backquotes: ``text`` for code samples.
 
 `` texto em código ``
 
