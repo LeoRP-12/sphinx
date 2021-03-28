@@ -21,6 +21,7 @@ listas :
 
 uma lista dentro de uma lista deve ter uma linha em branco separando-as
 exemplo
+
  1. Primeiro elemento
 
    1.1 primeiro elemento da seção 
@@ -33,8 +34,9 @@ paragrafos de citação são escritos assim:
 | no arquivo fonte 
 
 Este texto é um texto normal o proximo texto será um exemplo de codigo 
+:: 
 
-    : isto não é processado em nenhum lugar exceto se a identação é removida:
+        isto não é processado em nenhum lugar exceto se a identação é removida
 
 Este é um texto normal de novo
 
@@ -62,7 +64,7 @@ True   2    e aí
 
 ================
 Isto é um título 
-===============
+================
 
 
 
