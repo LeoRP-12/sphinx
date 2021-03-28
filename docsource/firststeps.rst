@@ -6,11 +6,9 @@ Aqui está a primeira seção, vou adicionar alguns comandos em rst para aprende
 italico : *aqui está um texto em italico*
 negrito : **aqui está um texto em negrito**
 
-um texto em código backquotes: ``text`` for code samples.
+um texto em código backquotes: for code samples.
 
 ``texto em código``
-
-`` texto diferente ``
 
 listas :
 * este é o primeiro elemento de uma lista não indexada
@@ -36,8 +34,7 @@ paragrafos de citação são escritos assim:
 | quebradas exatamente como está
 | no arquivo fonte 
 
-Este texto é um texto normal o proximo texto será um exemplo de codigo 
-:: 
+Este texto é um texto normal o proximo texto será um exemplo de codigo::
 
         isto não é processado em nenhum lugar exceto se a identação é removida
 
@@ -71,6 +68,12 @@ Isto é um título
 
 
 
+Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
+
+.. rubric:: Footnotes
+
+.. [#f1] Text of the first footnote.
+.. [#f2] Text of the second footnote.
 
 
-
+.. |name| replace:: replacement *text*
