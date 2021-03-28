@@ -7,7 +7,8 @@ italico : *aqui está um texto em italico*
 negrito : **aqui está um texto em negrito**
 
 um texto em código
-``texto em código ``
+
+`` texto em código ``
 
 listas :
 * este é o primeiro elemento de uma lista não indexada
@@ -65,7 +66,6 @@ True   2    e aí
 ================
 Isto é um título 
 ================
-
 
 
 
