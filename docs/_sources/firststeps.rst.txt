@@ -8,7 +8,9 @@ negrito : **aqui está um texto em negrito**
 
 um texto em código backquotes: ``text`` for code samples.
 
-`` texto em código ``
+``texto em código``
+
+`` texto diferente ``
 
 listas :
 * este é o primeiro elemento de uma lista não indexada
