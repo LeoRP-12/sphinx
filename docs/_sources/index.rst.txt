@@ -11,6 +11,7 @@ Welcome to pyiris's documentation!
    
    modules
    firststeps
+   murilo
 
 Indices and tables
 ==================
