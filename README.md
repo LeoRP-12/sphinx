@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.abspath(f'{source_code_path}'))
 ```
 to document with docs strings use ``.. autofunction:: your_function_to_auto_documentation ``
 
-e.g 
+e.g:
 
 ```python
 def get_random_ingredients(kind=None):
@@ -48,7 +48,7 @@ def get_random_ingredients(kind=None):
     return ["shells", "gorgonzola", "parsley"]
 ```
 
-at ./source/usage.rst you can see the documentation
+at [./source/usage.rst](https://github.com/LeoRP-12/sphinx/blob/main/source/usage.rst) you can see the documentation and the final result : [https://leorp-12.github.io/sphinx/usage.html](https://leorp-12.github.io/sphinx/usage.html).
 
 # Deploy
 
