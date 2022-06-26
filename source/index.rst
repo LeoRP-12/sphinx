@@ -20,6 +20,7 @@ The code
 
    first_module
    second_module
+   usage
 
 The render
 -----------
@@ -30,6 +31,7 @@ The render
 
    first_module
    second_module
+   usage
 
 
 

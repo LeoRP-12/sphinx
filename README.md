@@ -16,6 +16,39 @@ and ``myst-parser`` to parse markdown files.
 
 you can also use ``sphinx-multiversion`` to generate different versions of the documentation for each release
 
+# Autodoc
+
+in config.py include `sphinx.ext.autodoc` extension to automatic generating html documentation through docs strings.
+
+you need configure the source code path, add 
+
+```python
+import os
+import sys
+source_code_path = ''
+
+sys.path.insert(0, os.path.abspath(f'{source_code_path}'))
+```
+to document with docs strings use ``.. autofunction:: your_function_to_auto_documentation ``
+
+e.g 
+
+```python
+def get_random_ingredients(kind=None):
+    """
+    Return a list of random ingredients as strings.
+
+    :param kind: Optional "kind" of ingredients.
+    :type kind: list[str] or None
+    :raise lumache.InvalidKindError: If the kind is invalid.
+    :return: The ingredients list.
+    :rtype: list[str]
+
+    """
+    return ["shells", "gorgonzola", "parsley"]
+```
+
+at ./source/usage.rst you can see the documentation
 
 # Deploy
 
